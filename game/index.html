@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian Run — Bush Plane Courier</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23ffd75e'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle'%3E%E2%9C%88%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="game" width="1280" height="800"></canvas>
+  <div id="selftest" aria-live="polite"></div>
+  <div id="help">
+    <b>MERIDIAN RUN</b> — fly the courier plane. <b>↑/↓ or W/S</b> pitch,
+    <b>←/→ or A/D</b> throttle, <b>Space</b> airbrake, <b>mouse</b> steers,
+    <b>wheel</b> throttle, <b>click</b> boost, <b>P</b> pause, <b>M</b> sound,
+    <b>1/2/3</b> pick a mission, <b>Enter</b> fly.
+  </div>
+</div>
+<script src="src/terrain.js"></script>
+<script src="src/physics.js"></script>
+<script src="src/aircraft.js"></script>
+<script src="src/missions.js"></script>
+<script src="src/hud.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/input.js"></script>
+<script src="src/render.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
